@@ -1,0 +1,17 @@
+.image{
+    width: 1000px;
+    margin: 0 auto;
+    padding-top: 10px;
+    overflow: hidden;
+}
+
+.article{
+    float: left;
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+
+.im1{
+    border-bottom: 1px;
+    display: block;
+}

@@ -1,0 +1,102 @@
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+@font-face {
+    font-family: 'GongGothicMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10@1.0/GongGothicMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.notosanskr * {
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+:root{
+    --color-main-gray: #c8c8c8;
+    --color-main-black: #3e3e3e;
+    --color-orange-main: #fe9519;
+}
+
+.introduce{
+    background-color: #3e3e3e;
+    display: flex;
+}
+
+.introduce_div{
+    display: block;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+}
+
+.intro_myself{
+    font-family:"Noto Sans KR";
+    color: black;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.gallery_div{
+    width: 50px;
+    display: inline-block;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 100px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.gallery_btn{
+    float: left;
+    width: 400px;
+    height: 250px;
+    background-color: white;
+    border: 0;
+    justify-content: center;
+    padding: 0px;
+    text-align: center;
+    margin: auto;
+    margin-top: 100pt;
+}
+
+.gallery_block{
+    position: relative;
+    width: 400px;
+    height: 250px;
+    border-radius: 38px;
+}
+
+.gallery{
+    position: absolute;
+    font-family: "noto sans KR";
+    font-weight: bold;
+    color: black;
+    font-size: 70px;
+    text-decoration: none;
+    margin-top: 80pt;
+    transform: translate(-115%, -30%);
+}
+
+.mimo_div{
+    float: left;
+    text-align: center;
+    margin-left: 300pt;
+    margin-top: 100pt;
+    justify-content: center;
+    display: block;
+    flex-direction: column;
+}
+
+.name{
+    margin: auto;
+    font-size: 40px;
+    font-family: "Noto Sans KR";
+    font-weight: bold;
+}
+
+.name_history{
+    font-family: "Noto Sans NKo";
+    font-size: 20px;
+    font-weight: lighter;
+}

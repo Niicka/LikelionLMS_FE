@@ -12,5 +12,54 @@
 :root{
     --color-main-black: #3e3e3e;
     --color-orange-main: #fe9519;
-
+}
+.footerbar{
+    background-color: var(--color-main-black);
+    display: flex;
+}
+.footer_txt_div{
+    display: block;
+    flex-direction: column;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    justify-content: center;
+}
+.footer_title{
+    font-family: "GmarketSansMedium";
+    color: #ffffff;
+    font-weight: lighter;
+    font-size: 15px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.footer_menus{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 40px;
+}
+.managers{
+    font-family: "Noto Sans KR";
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: lighter;
+    text-decoration: none;
+    margin-right: 30px;
+}
+.KAU_likelion{
+    font-family: "Noto Sans KR";
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: lighter;
+    text-decoration: none;
+    margin-left: 30px;
+    margin-right: 65px;
+}
+.Likelion_Univ{
+    font-family: "Noto Sans KR";
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: lighter;
+    text-decoration: none;
 }
