@@ -1,0 +1,105 @@
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+.notosanskr * {
+    font-family: 'Noto Sans KR', sans-serif;
+}
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.hobby_title{
+    font-weight: bold;
+    font-family: "Noto Sans KR";
+    font-size: 25pt;
+    margin: auto;
+}
+
+.info_title{
+    font-weight: bold;
+    font-family: "Noto Sans KR";
+    font-size: 25pt;
+    margin: auto;
+}
+
+.sns_title{
+    font-weight: bold;
+    font-family: "Noto Sans KR";
+    font-size: 25pt;
+    margin: auto;
+}
+
+.h1{
+    font-weight: bold;
+    font-size: 15pt;
+    margin-top: 15pt;
+    margin-bottom: auto;
+}
+
+.h2{
+    font-weight: bold;
+    font-size: 15pt;
+    margin-top: 15pt;
+    margin-bottom: auto;
+}
+
+.i1{
+    font-weight: bold;
+    font-size: 15pt;
+    margin-top: 15pt;
+    margin-bottom: auto;
+}
+
+.i2{
+    font-weight: bold;
+    font-size: 15pt;
+    margin-top: 15pt;
+    margin-bottom: auto;
+}
+
+.i3{
+    font-weight: bold;
+    font-size: 15pt;
+    margin-top: 15pt;
+    margin-bottom: auto;
+}
+
+.i4{
+    font-weight: bold;
+    font-size: 15pt;
+    margin-top: 15pt;
+    margin-bottom: auto;
+}
+
+.i5{
+    font-weight: bold;
+    font-size: 15pt;
+    margin-top: 15pt;
+    margin-bottom: auto;
+}
+
+.s1{
+    font-family: "Noto Sans KR";
+    display: block;
+    margin-top: 15pt;
+    font-size: 15pt;
+    margin-bottom: auto;
+}
+
+.s2{
+    font-family: "Noto Sans KR";
+    display: block;
+    margin-top: 15pt;
+    font-size: 15pt;
+    margin-bottom: auto;
+}
+
+.s3{
+    font-family: "Noto Sans KR";
+    display: block;
+    margin-top: 15pt;
+    font-size: 15pt;
+    margin-bottom: auto;
+}

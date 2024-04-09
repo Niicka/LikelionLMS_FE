@@ -12,7 +12,6 @@
 :root{
     --color-main-black: #3e3e3e;
     --color-orange-main: #fe9519;
-
 }
 .navbar{
     background-color: var(--color-main-black);
@@ -30,7 +29,7 @@
     background-color: #ffffff;
     border: none;
     border-radius: 8px;
-    font-family: "Gmarket Sans";
+    font-family: "GmarketSansMedium";
     color: var(--color-orange-main);
     font-size: 12px;
 }
@@ -43,13 +42,13 @@
     margin-left: auto;
 }
 .likelion_title{
-    font-family: "Gmarket Sans";
+    font-family: "GmarketSansMedium";
     color: #ffffff;
     font-weight: bold;
     font-size: 30px;
 }
 .kau_title{
-    font-family: "Gmarket Sans";
+    font-family: "GmarketSansMedium";
     color: #ffffff;
     font-weight: lighter;
     font-size: 15px;
@@ -70,7 +69,7 @@
     margin-bottom: 6px;
 }
 .homework_list{
-    font-family: "Gmarket Sans";
+    font-family: "GmarketSansMedium";
     color: #ffffff;
     font-size: 12px;
     text-decoration: none;
