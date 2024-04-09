@@ -35,22 +35,28 @@
 }
 
 .homework_menu_div{
+    align-items: center;
     display: flex;
     justify-content: center;
     flex-direction: row;
-    margin: 0 auto;
+    /*margin: 0 auto;*/
+    margin-top: 14px;
 }
 
 .homework_menu_btn{
     width: 35px;
     height: 35px;
-    margin-top: 24px;
+    /*margin-top: 24px;*/
 }
 
 h3{
+    text-align: center;
+    /*align-items: center;*/
     font-family: "Gmarket Sans";
-    margin-top: 33px;
+    /*margin-top: 33px;*/
     font-weight: lighter;
+    /*margin: 0 auto;*/
+    /*margin-top: 9px;*/
     margin-left: 9px;
     font-size: 18px;
 }

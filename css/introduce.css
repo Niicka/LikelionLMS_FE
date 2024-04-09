@@ -17,19 +17,6 @@
     --color-orange-main: #fe9519;
 }
 
-.introduce{
-    background-color: #3e3e3e;
-    display: flex;
-}
-
-.introduce_div{
-    display: block;
-    text-align: center;
-    justify-content: center;
-    flex-direction: column;
-    margin: auto;
-}
-
 .intro_myself{
     font-family:"Noto Sans KR";
     color: black;
@@ -42,7 +29,7 @@
     display: inline-block;
     flex-direction: column;
     justify-content: center;
-    margin-top: 100px;
+    margin-top: 100pt;
     margin-right: auto;
     margin-left: auto;
 }
@@ -57,7 +44,8 @@
     padding: 0px;
     text-align: center;
     margin: auto;
-    margin-top: 100pt;
+    margin-top: 100px;
+    margin-bottom: 90px;
 }
 
 .gallery_block{
@@ -74,8 +62,9 @@
     color: black;
     font-size: 70px;
     text-decoration: none;
-    margin-top: 80pt;
+    margin-top: 80px;
     transform: translate(-115%, -30%);
+    padding-top: 25px;
 }
 
 .mimo_div{

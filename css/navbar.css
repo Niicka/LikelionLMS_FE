@@ -14,6 +14,8 @@
     --color-orange-main: #fe9519;
 }
 .navbar{
+    width: auto;
+    height: 120px;
     background-color: var(--color-main-black);
     display: flex;
 }
@@ -37,7 +39,7 @@
     width: 50px;
     display: block;
     flex-direction: column;
-    margin-top: 10px;
+    margin-top: 35px;
     margin-right: 0px;
     margin-left: auto;
 }
@@ -51,8 +53,8 @@
     font-family: "GmarketSansMedium";
     color: #ffffff;
     font-weight: lighter;
-    font-size: 15px;
-    margin-top: 0px;
+    /*font-size: 15px;*/
+    margin-top: 1px;
 }
 .homework_btn{
     width: 46px;
@@ -79,7 +81,7 @@
     display: block;
     flex-direction: column;
     justify-content: center;
-    margin-top: 10px;
+    margin-top: 35px;
     margin-right: auto;
     margin-left: 0px;
 }

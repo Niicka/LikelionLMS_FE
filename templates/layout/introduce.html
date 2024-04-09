@@ -5,17 +5,16 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="../../js/base.js"></script>
+    <script src="../../js/main.js"></script>
+    <link rel="stylesheet" href="../../css/navbar.css">
+    <link rel="stylesheet" href="../../css/footer.css">
     <link rel="stylesheet" href="../../css/introduce.css">
 </head>
 <body>
-    <nav class="introduce">
-        <div class="introduce_div">
-            <p class="intro_myself">INTRODUCE-MYSELF</p>
-        </div>
-    </nav>
-</body>
-
-<page>
+<div nav-include-path="../../templates/layout/navbar.html">
+    <script>LoadNAVBAR();</script>
+</div>
     <div class="mimo_div">
         <a href="information.html"><img src="../../img/mimo_main.jpeg" alt="mimo_main" class="mimo_main"></a>
         <p class="name">NIICKA</p>
@@ -28,5 +27,9 @@
             <a href="gallery.html" class="gallery">GALLERY</a>
         </button>
     </div>
-</page>
+<div fot-include-path="../../templates/layout/footer.html">
+    <script>LoadFOOTER();</script>
+</div>
+</body>
+
 </html>

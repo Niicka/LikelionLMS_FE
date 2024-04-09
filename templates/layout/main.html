@@ -5,10 +5,16 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="../../js/base.js"></script>
+    <script src="../../js/main.js"></script>
+    <link rel="stylesheet" href="../../css/navbar.css">
+    <link rel="stylesheet" href="../../css/footer.css">
     <link rel="stylesheet" href="../../css/main.css">
-
 </head>
 <body>
+<div nav-include-path="../../templates/layout/navbar.html">
+    <script>LoadNAVBAR();</script>
+</div>
     <div class="give_homework_div">
         <p class="homework_give">과제부여하기</p>
     </div>
@@ -41,5 +47,8 @@
             <p class="right_homework">3월27일 월요일 19시까지</p>
         </div>
     </div>
+<div fot-include-path="../../templates/layout/footer.html">
+    <script>LoadFOOTER();</script>
+</div>
 </body>
 </html>

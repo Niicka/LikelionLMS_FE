@@ -5,9 +5,16 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="../../js/base.js"></script>
+    <script src="../../js/main.js"></script>
+    <link rel="stylesheet" href="../../css/navbar.css">
+    <link rel="stylesheet" href="../../css/footer.css">
     <link rel="stylesheet" href="../../css/information.css">
 </head>
 <body>
+<div nav-include-path="../../templates/layout/navbar.html">
+    <script>LoadNAVBAR();</script>
+</div>
     <nav class="info">
         <div class="information">
             <p class="info_title">INFORMATION</p>
@@ -20,7 +27,7 @@
             <p class="i4">ADDRESS</p>
             <p class="i4_1">인천광역시 부평구</p>
             <p class="i5">TMI</p>
-            <p class="i5_1">키:170cm</p>
+            <p class="i5_1">키:170.4cm</p>
             <p class="i5_2">좋아하는 색: 네이비</p>
             <p class="i5_3">고2 남동생 있음...</p>
             <p class="i5_4">써브웨이 알바생</p>
@@ -41,5 +48,8 @@
             <a href="https://music.apple.com/profile/ButtocksHop" class="s3">APPLE MUSIC</a>
         </div>
     </nav>
+<div fot-include-path="../../templates/layout/footer.html">
+    <script>LoadFOOTER();</script>
+</div>
 </body>
 </html>
